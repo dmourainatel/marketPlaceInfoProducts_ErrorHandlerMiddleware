@@ -13,7 +13,8 @@ module.exports = (opts) => {
         handler.response = {
           statusCode: handler.error.statusCode,
           body: JSON.stringify({
-            error: handler.error,
+            statusCode: handler.error.statusCode,
+            error: handler.error.message,
           }),
         };
         return next();
