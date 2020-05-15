@@ -1,11 +1,11 @@
-"use strict";
-module.exports = (opts) => {
+
+function handler (opts : any) : any {
   const defaults = {
     logger: console.error,
   };
   const options = Object.assign({}, defaults, opts);
   return {
-    onError: (handler, next) => {
+    onError: (handler : any, next:any) : any => {
       if (typeof options.logger === "function") {
         options.logger(handler.error);
       }
@@ -22,4 +22,6 @@ module.exports = (opts) => {
       return next(handler.error);
     },
   };
-};
+}
+
+export default handler;
