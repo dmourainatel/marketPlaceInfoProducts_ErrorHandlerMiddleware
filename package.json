@@ -1,12 +1,12 @@
 {
   "name": "@diegomoura637/error-handler-middleware",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Middleware to handling error when middy is used as a middleware mecanism",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
