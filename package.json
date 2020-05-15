@@ -1,6 +1,6 @@
 {
   "name": "@diegomoura637/error-handler-middleware",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Middleware to handling error when middy is used as a middleware mecanism",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
