@@ -1,5 +1,5 @@
 
-function handler (opts : any) : any {
+function handler (opts? : any) : any {
   const defaults = {
     logger: console.error,
   };
